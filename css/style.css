@@ -143,3 +143,48 @@ nav a {
     align-items: center;
     gap: 5px;
 }
+
+section {
+    padding: 80px 0;
+}
+
+.promocoes, .restaurantes-destaque .cards-promocao, .categorias-comida .cards-promocao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.cartao {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.cartao img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.conteudo-cartao {
+    padding: 20px;
+}
+
+.conteudo-cartao h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.selo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--cor-primaria);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
