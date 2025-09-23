@@ -1,0 +1,145 @@
+/* Estilos globais e variáveis */
+:root {
+    --cor-primaria: #ffc000;
+    --cor-secundaria: #333;
+    --cor-texto: #555;
+    --cor-clara: #f9f9f9;
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    margin: 0;
+    background-color: #fff;
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/* HEADER */
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px 0 80px;
+    color: var(--cor-secundaria);
+    position: relative;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.conteudo-principal {
+    flex: 1;
+}
+
+.imagem-principal {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-principal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.principal h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.principal p {
+    font-size: 1.2em;
+}
+
+.formulario-busca {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.formulario-busca input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    flex-grow: 1;
+}
+
+.formulario-busca button {
+    border: none;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
