@@ -1,0 +1,64 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #E6c163;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Logo no canto superior */
+        .logo {
+            position: absolute; /* ou 'fixed' se quiser que role com a página */
+            top: 20px;
+            left: 20px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        /* Container principal do formulário */
+        .form-container {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 60px auto 20px auto; /* Centraliza e dá espaço do topo */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Título do formulário */
+        h2 {
+            text-align: center;
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        /* Estilos dos campos de texto e botão */
+        label {
+            display: block; /* Faz a label ocupar uma linha inteira */
+            margin-top: 20px; /* Cria o espaçamento entre os campos */
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        input, textarea, button {
+            width: 100%; /* Ocupa 100% da largura do container */
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Garante que o padding não afete a largura total */
+            font-size: 1em;
+        }
+
+        button {
+            background-color: #d9a04a;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px; /* Espaço acima do botão */
+        }
+
+        button:hover {
+            background-color: #c08c3e;
+        }
