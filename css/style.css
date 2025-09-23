@@ -188,3 +188,27 @@ section {
     border-radius: 5px;
     font-weight: 600;
 }
+.como-funciona .passos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.como-funciona .passo {
+    width: 25%;
+}
+.como-funciona .icone-passo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    background-color: var(--cor-primaria);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+}
+.como-funciona h2, .restaurantes-destaque h2, .categorias-comida h2 {
+    text-align: center;
+}
+
