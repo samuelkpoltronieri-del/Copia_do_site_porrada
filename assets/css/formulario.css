@@ -8,7 +8,7 @@ body {
 
         /* Logo no canto superior */
         .logo {
-            position: absolute; /* ou 'fixed' se quiser que role com a página */
+            position: absolute;
             top: 20px;
             left: 20px;
             font-size: 2em;
